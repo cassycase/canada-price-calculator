@@ -82,13 +82,12 @@ input::placeholder {
 }
 
 button {
-    padding: 9px 27px;
-    background-color: #FFF;
+    padding: 9px 30px;
+    background-color: #e1d9ff;
     border-radius: 5px;
     border: none;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
-    font-weight: 500;
-    color: #3D3D3D;
+    font-weight: 800;
+    color: #3f2899;
     cursor: pointer;
 }
 
