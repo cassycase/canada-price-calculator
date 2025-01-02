@@ -148,5 +148,6 @@ button {
 
     .textbox {
         padding: 0.8rem;
+        width: 90%;
     }
 }
