@@ -103,7 +103,7 @@ button {
 }
 
 .textbox {
-    width: 90%;
+    max-width: 480px;
     height: 100px;
     display: flex;
     flex-direction: column;
