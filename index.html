@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+              rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Total Price Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="converter-container">
+                <div>
+                    <h1>🇨🇦 Tax & Service Charge 
+                    <span>Calculator</span>
+                    </h1>
+                    <h3>
+                        Enter the price before tax
+                    </h3>
+                </div>
+                <div>
+                    <input class="price-entry" id="input" type="text" placeholder="$0">
+                </div>
+                <div>
+                    <button id="convert-btn">Calculate</button>
+                </div>
+            </div>
+    
+            <div class="info-container">
+                <div class="textbox">
+                    <h2>After Tax</h2>
+                    <p id="afterTax-input">$0</p>
+                </div>
+                <div class="textbox">
+                    <h2>After Tax + 15% Service Charge</h2>
+                    <p id="fifteenService-input">$0</p>
+                </div>
+                <div class="textbox">
+                    <h2>After Tax + 20% Service Charge</h2>
+                    <p id="twentyService-input">$0</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

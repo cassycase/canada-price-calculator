@@ -1,0 +1,151 @@
+*, *::before, *::after {
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    font-family: "Inter", system-ui, serif;
+}
+
+h1 {
+    font-size: 1.75rem;
+    padding-bottom: 0.7rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    color: #CCC1FF;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+/* Layout */
+.container {
+    max-width: 550px;
+    display: block;
+    margin: 2rem auto;
+}
+
+.converter-container {
+    background: #6943FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.converter-container div {
+    padding: 0.5rem 0;
+}
+
+/* Input Field */
+.price-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+    border: #B295FF 2px solid;
+    border-radius: 3px;
+    width: 117px;
+    max-width: 200px; /* Limit for larger screens */
+    height: 60px;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+input {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 27px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    font-weight: 500;
+    color: #3D3D3D;
+    cursor: pointer;
+}
+
+/* Info Section */
+.info-container {
+    max-height: 392px;
+    width: inherit;
+    background-color: #1F2937;
+    display: block;
+    margin: 0 auto;
+    padding: 1.2rem 0;
+}
+
+.textbox {
+    width: 500px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 1.2rem auto;
+    background-color: #273549;
+    line-height: 1.8;
+    padding: 0 1rem;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .converter-container {
+        padding: 1rem;
+    }
+
+    .price-entry {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .textbox {
+        padding: 0.8rem;
+    }
+}
