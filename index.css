@@ -94,6 +94,12 @@ input::placeholder {
     text-decoration: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 button {
     padding: 9px 30px;
     background-color: #e1d9ff;
