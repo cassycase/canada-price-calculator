@@ -190,7 +190,7 @@ button:hover {
     }
 
     button {
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding: 8px 25px;
     }
 
@@ -200,7 +200,7 @@ button:hover {
         padding-bottom: 0.4rem;
     }
 
-    p {
+    h3, p {
         font-size: 1rem;
         line-height: 1.2;
         padding: 0;

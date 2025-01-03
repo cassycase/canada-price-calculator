@@ -41,11 +41,12 @@ function unitConverter() {
                                     `;
 
     fifteenServiceInput.innerHTML = ` $ ${(baseValue + taxValue + fifteenService).toFixed(2)} 
-                                        <p class="caption"> (+ ${fifteenService.toFixed(2)} </p> 
+                                        <p class="caption"> (+ ${fifteenService.toFixed(2)}) </p> 
                                     `;
     
     twentyServiceInput.innerHTML = ` $ ${(baseValue + taxValue + twentyService).toFixed(2)} 
                                         <p class="caption"> (+ ${twentyService.toFixed(2)}) </p> 
                                     `;
+
 }
 
