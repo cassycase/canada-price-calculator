@@ -54,6 +54,12 @@ p {
     font-weight: 400
 }
 
+.error {
+    color: #ff2323;
+    font-size: 1rem; 
+    font-weight: 700;
+}
+
 /* Layout */
 .container {
     max-width: 550px;
