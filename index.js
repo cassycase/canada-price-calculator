@@ -67,6 +67,9 @@ function unitConverter() {
         afterTaxInput.innerHTML = `
                                     <p class="error">"Please enter an amount greater than $0 !"</p>
         `;
+
+
+
         return;
     }
 
